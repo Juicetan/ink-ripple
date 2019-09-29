@@ -9,6 +9,7 @@
  * ----------------|-------------|----------
  * `--ink-ripple-accent-color` | black
  * `--ink-ripple-opacity` | Opacity of the ripple | 0.15
+ * `--ink-ripple-duration` | Animation duration of ripple | 0.3s
  * 
  */
 class InkRipple extends HTMLElement {
@@ -45,6 +46,7 @@ class InkRipple extends HTMLElement {
 
         --ink-ripple-accent-color: black;
         --ink-ripple-opacity: 0.15;
+        --ink-ripple-duration: 0.3s;
       }
       :host::before {
         position: absolute;
@@ -59,7 +61,7 @@ class InkRipple extends HTMLElement {
       }
 
       :host([animatable])::before {
-        transition: opacity .1s linear, transform .3s linear;
+        transition: opacity .1s linear, transform var(--ink-ripple-duration) linear;
       }
 
       :host([mouseup][animatable])::before {
