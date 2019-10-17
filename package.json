@@ -1,0 +1,19 @@
+{
+  "name": "ink-ripple",
+  "version": "1.0.0",
+  "description": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/alex-saunders/ink-ripple)",
+  "main": "ink-ripple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juicetan/ink-ripple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juicetan/ink-ripple/issues"
+  },
+  "homepage": "https://github.com/Juicetan/ink-ripple#readme"
+}

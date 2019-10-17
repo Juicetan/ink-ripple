@@ -50,6 +50,7 @@ You have the ability to control the accent colour and opacity of the ripple thro
   ink-ripple {
     --ink-ripple-accent-color: green;
     --ink-ripple-opacity: 0.6;
+    --ink-ripple-duration: 0.3s
   }
 </style>
 <div>
